@@ -13,3 +13,23 @@ body {
     justify-content: center;
     overflow: hidden;
 }
+
+h1 {
+    text-align:center;
+    border: 1px solid black;
+  }
+  
+  .container {
+    border: 3px solid black;
+    height:500px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  div {
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+  }
