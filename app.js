@@ -4,15 +4,17 @@ let div = document.createElement('div'); //Created JS div
 
 //Function to create boxes within the container
 const howManySquaresDoYouWant = (gridSize) =>{
-   gridSize = prompt(`How do you want your Grid Size?`);//Make a prompt that will ask for the grid size
+   gridSize = prompt(`How do you want your Grid Size?`);
 
   for (let i = 0 ; i <= gridSize; i++){
-    container.appendChild(div);
+        let div = document.createElement('div')
+            let box = container.appendChild(div);
+            return box.style.
   }
 }
 
 let gridSizeBtn = document.getElementById('gridSize')
-
 gridSizeBtn.addEventListener('click', howManySquaresDoYouWant);
 
 
+//grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
